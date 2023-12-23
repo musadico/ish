@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Sign Up</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="first_assignment.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Application form</h1>
+        <h6></h6>
+        <form action="" method="post">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" &nbsp; required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="dob">Date of Birth (dd/mm/yyyy):</label>
+                <input type="text" id="dob" name="dob" pattern="\d{2}/\d{2}/\d{4}" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="education">Education Level:</label>
+                <select id="education" name="education" required>
+                    <option value="">Select level of education</option>
+                    <option value="highschool">High School</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="graduate">Graduate</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select a Country</option>
+                    <option value="">Nigeria</option>
+                    <option value="">Kenya</option>
+                    <option value="">Ghana</option>
+                    <option value="">Morrocco</option>
+                    <option value="">Niger</option>
+                    <option value="">South Africa</option>
+                    <option value="">Namibia</option>
+                    <option value="">Nicaragua</option>
+                </select>
+
+                <label for="city">State/City of Residence:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="employment">Employment Status:</label>
+                <select id="employment" name="employment" required>
+                    <option value="">Select employment status</option>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="student">Student</option>
+                </select>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" maxlength="11" id="phone" name="phone" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="school">Choose School:</label>
+                <select id="school" name="school" required>
+                    <option value="">Select school</option>
+                    <option value="">School of Engineering</option>
+                    <option value="">School of Product</option>
+                    <option value="">School of Data</option>
+                </select>
+
+                <label for="course">Choose Course of Study:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select course</option>
+                    <option value="">Frontend Engineering</option>
+                    <option value="">Backend Engineering</option>
+                    <option value="">Cloud Engineering</option>
+                    <option value="">Product Design</option>
+                    <option value="">Product Marketing</option>
+                    <option value="">Product Management</option>
+                    <option value="">Data Science</option>
+                    <option value="">Data Analytics</option>
+                    <option value="">Data Engineering</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="hearAbout">How did you hear about us?</label>
+                <select id="hearAbout" name="hearAbout" required>
+                    <option value="">Select channel</option>
+                    <option value="website">Website</option>
+                    <option value="friend">Friend/Family</option>
+                    <option value="socialmedia">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="discountCode">Scholarship/Discount Code (optional):</label>
+                <br>
+                <input type="text" id="discountCode" name="discountCode">
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">By clicking the Sign up botton, I agree to the Terms of Use and acknowledge that I have read the
+                <a href="#">Privacy and Policy</a>.</label>
+            </div>
+            <br>
+            <input type="submit" style="height: 30px; width: 80px; font-size: 15px;" value="Sign Up">
+        </form>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
